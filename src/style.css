@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Когда тег один, то все эти теги имеют эти стили */
+/* img { 
+    width: 100px;
+} */
+
+/* К определенному тегу по структуре */
+/* header > nav > img {
+    width: 100px;
+} */
+
+/* .nav-img {
+    width: 100px;
+} */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    /* background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fadidas%2Fadidas_PNG8.png&f=1&nofb=1&ipt=0270a6b8e2babeb4f4e0db9a8cb9e8f77c9a725534e7a954a688a1052d4010a2") no-repeat center center/cover; */
+}
+
+.menu > img {
+    width: 70px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 30px;
+}
+
+.menu-list > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    transition: color 0.4s;
+    /* background-color: aqua;
+    padding: 10px 20px; */
+}
+
+.menu-list > li > a:hover {
+    color: tomato;
+}
